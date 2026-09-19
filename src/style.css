@@ -5,3 +5,9 @@ body {
 h1 {
     text-align: center;
 }
+
+.timer {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+
+}
