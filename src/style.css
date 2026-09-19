@@ -11,3 +11,16 @@ h1 {
     text-align: center;
 
 }
+
+
+.subtractButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+
+}
+
+.minus {
+    border-radius: 8px;
+}
