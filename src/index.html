@@ -13,28 +13,17 @@
 
     <div id="root"></div>
 
+    <!-- React -->
     <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+
+    <!-- ReactDOM -->
     <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+
+    <!-- Babel lets the browser understand JSX -->
     <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
 
-    <script type="text/babel">
-
-        function Website() {
-            return (
-                <div>
-                    <h1 class="heading">UT Native Pomodoro</h1>
-                    <p class="timer">25:00</p>
-                </div>
-            );
-        }
-
-        const root = ReactDOM.createRoot(
-            document.getElementById('root')
-        );
-
-        root.render(<Website />);
-
-    </script>
+    <!-- Your React code -->
+    <script type="text/babel" src="react.js"></script>
 
 </body>
 
